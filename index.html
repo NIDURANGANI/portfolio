@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kavindaya Nidurangani - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+    function switchLang(lang) {
+      alert('Language switching coming soon! Current: ' + lang);
+    }
+    window.addEventListener('scroll', () => {
+      document.querySelectorAll('section').forEach(sec => sec.classList.add('animate'));
+    });
+  </script>
+</head>
+
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="javascript:void(0)" onclick="showSection('about')">About</a></li>
+      <li><a href="javascript:void(0)" onclick="showSection('skills')">Skills</a></li>
+      <li><a href="javascript:void(0)" onclick="showSection('projects')">Projects</a></li>
+        <li><a href="javascript:void(0)" onclick="showSection('certifications')">Certifications</a></li>
+   
+
+<li><a href="javascript:void(0)" onclick="showSection('awards')">Awards</a></li>
+
+      <li><a href="javascript:void(0)" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+  </div>
+
+  <header class="hero">
+    <img src="assets/profile.jpg" alt="Profile" class="profile-img">
+    <h1><span>Hello, I'm Kavindaya Nidurangani</span></h1>
+    <p>Final-Year IT Undergraduate | Full-Stack Developer</p>
+    <a href="Kavindaya_CV.pdf" class="btn-download" download>📄 Download CV</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a final-year <strong>Information Technology undergraduate</strong> with over 
+      <strong>1 year of experience</strong> in software development, web development, and machine learning.<br><br>
+      💻 I’m proficient in <strong>Python, JavaScript, PHP</strong>, and experienced with modern frameworks like 
+      <strong>ReactJS, Laravel, and Bootstrap</strong>.<br><br>
+      ⚙️ I build scalable applications using <strong>RESTful APIs, FastAPI</strong>, and deploy projects on 
+      <strong>Firebase</strong> and <strong>AWS</strong>.<br><br>
+
+      <strong>Key Projects:</strong><br>
+      <ul>
+        <li><strong>HungerHub</strong> – Android app to manage food donations</li>
+        <li><strong>DCVS</strong> – Blockchain-based Certificate Verification System</li>
+        <li><strong>NFT Quiz Game</strong> – A blockchain-powered quiz game</li>
+        <li><strong>Cake Management System</strong> – Web app for cake order & inventory management</li>
+      </ul><br>
+
+      🔧 <strong>Other Skills:</strong><br>
+      <ul>
+        <li>CI/CD pipelines with <strong>GitHub Actions</strong></li>
+        <li>Cloud Deployment & Agile Workflow</li>
+        <li>Git & Version Control</li>
+        <li>Certified in <strong>Machine Learning, Firebase, DevOps, Full-Stack Web Development</strong></li>
+      </ul><br>
+
+      I’m a motivated, fast learner and team player seeking roles such as:<br>
+      <strong>Software Engineer, Web Developer, Full-Stack / Frontend Developer, Junior Developer, Machine Learning Intern</strong>
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>🛠️ Skills</h2>
+    <div class="skill-bar"><span>ReactJS</span><div style="width: 90%"></div></div>
+    <div class="skill-bar"><span>Laravel</span><div style="width: 85%"></div></div>
+    <div class="skill-bar"><span>Python</span><div style="width: 80%"></div></div>
+    <div class="skill-bar"><span>Firebase</span><div style="width: 75%"></div></div>
+<center>
+    <div style="text-align: center;">
+      <h3>Programming Languages</h3>
+      <ul><li>Python, JavaScript, PHP, Java, C</li></ul>
+
+      <h3>Web Frameworks and Libraries</h3>
+      <ul><li>ReactJS, Laravel, Bootstrap, FastAPI, Flask, Next.js</li></ul>
+
+      <h3>API Development and Testing</h3>
+      <ul><li>RESTful APIs, API Integration, Postman, OAuth</li></ul>
+
+      <h3>Frontend Technologies</h3>
+      <ul><li>HTML, CSS, JavaScript, jQuery, Responsive Design</li></ul>
+
+      <h3>Backend Technologies</h3>
+      <ul><li>PHP, Node.js, Python, SQL</li></ul>
+
+      <h3>Databases</h3>
+      <ul><li>MySQL, SQL</li></ul>
+
+      <h3>Machine Learning & AI</h3>
+      <ul><li>Predictive Analytics, Data Preprocessing, Model Training, Data Visualization</li></ul>
+
+      <h3>DevOps & Cloud</h3>
+      <ul><li>AWS, Railway, Git, GitHub, GitLab</li></ul>
+
+      <h3>Tools and Technologies</h3>
+      <ul><li>Visual Studio Code, Jira, Postman, Figma, Canva</li></ul>
+
+      <h3>Soft Skills</h3>
+      <ul><li>Team Leadership, Problem Solving, Time Management, Communication</li></ul>
+
+      <h3>Languages</h3>
+      <ul><li>English (Fluent), Tamil (Intermediate), Sinhala (Native)</li></ul>
+    </div>
+  </section></center>
+
+  <section id="projects">
+    <h2>Projects Gallery</h2>
+    
+
+<div class="gallery">
+  <!-- Cake Management System -->
+  <a href="https://github.com/NIDURANGANI/Cake-Management-System" target="_blank" class="project-card">
+    <h3>Cake Management System</h3>
+    <p>Desktop application for managing cake product inventory, sales tracking, and report generation.</p>
+    <ul>
+      <li>Product & sales management</li>
+      <li>Report generation</li>
+      <li>User authentication</li>
+      <li>MVC-based structure</li>
+    </ul>
+    <div class="tags">
+      <span>Java</span>
+      <span>Swing</span>
+      <span>MySQL</span>
+      <span>MVC</span>
+    </div>
+  </a>
+
+  <!-- Mini Game -->
+  <a href="https://github.com/NIDURANGANI/Mini-Game" target="_blank" class="project-card">
+    <h3>Mini Game</h3>
+    <p>Simple interactive game created with Python to demonstrate programming fundamentals and user interaction.</p>
+    <ul>
+      <li>Interactive gameplay</li>
+      <li>Event-driven design</li>
+      <li>Core logic implementation</li>
+    </ul>
+    <div class="tags">
+      <span>Python</span>
+    </div>
+  </a>
+
+  <!-- Streamlit Project -->
+  <a href="https://github.com/NIDURANGANI/Streamlit-Project" target="_blank" class="project-card">
+    <h3>Streamlit Project</h3>
+    <p>Interactive web dashboard for data visualization and real-time input handling.</p>
+    <ul>
+      <li>Real-time data visualization</li>
+      <li>Interactive UI</li>
+      <li>Dashboard features</li>
+    </ul>
+    <div class="tags">
+      <span>Python</span>
+      <span>Streamlit</span>
+      <span>Pandas</span>
+      <span>Matplotlib</span>
+    </div>
+  </a>
+
+  <!-- HungerHub -->
+  <a href="https://github.com/NIDURANGANI/HungerHub" target="_blank" class="project-card">
+    <h3>HungerHub</h3>
+    <p>Android app for managing food donations with real-time database and image uploads.</p>
+    <ul>
+      <li>Donation submission</li>
+      <li>Real-time sync</li>
+      <li>Image upload</li>
+    </ul>
+    <div class="tags">
+      <span>Java</span>
+      <span>Firebase</span>
+      <span>Android</span>
+    </div>
+  </a>
+
+  <!-- Traveller -->
+  <a href="https://github.com/NIDURANGANI/Traveller" target="_blank" class="project-card">
+    <h3>Traveller</h3>
+    <p>Responsive travel booking web app with email reminders and booking handling.</p>
+    <ul>
+      <li>Booking & Inquiry</li>
+      <li>Email Integration</li>
+      <li>Responsive UI</li>
+    </ul>
+    <div class="tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>EmailJS</span>
+    </div>
+  </a>
+
+  <!-- Vercel Deploy -->
+  <a href="https://github.com/NIDURANGANI/Vercel-Deploy" target="_blank" class="project-card">
+    <h3>Vercel Deploy</h3>
+    <p>Web deployment demo using Vercel, CI/CD pipelines, and GitHub integration.</p>
+    <ul>
+      <li>CI/CD with GitHub Actions</li>
+      <li>Auto Deploy</li>
+      <li>Static site hosting</li>
+    </ul>
+    <div class="tags">
+      <span>GitHub</span>
+      <span>CI/CD</span>
+      <span>Vercel</span>
+    </div>
+  </a>
+</div></div>
+</section>
+
+ <section id="certifications">
+
+
+    <h2>📜 Certifications</h2>
+    <p>Click on any certification to view the credential on LinkedIn.</p>
+    <div class="cert-grid">
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Oracle Fusion Cloud Applications HCM Certified</h3>
+        <p>Oracle</p>
+        <span class="tag">HCM Cloud</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Network Security</h3>
+        <p>Great Learning Academy</p>
+        <span class="tag">Security</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Intro to Machine Learning</h3>
+        <p>Kaggle</p>
+        <span class="tag">Machine Learning</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Full-Stack Web Development with React and Laravel</h3>
+        <p>Horizon Campus</p>
+        <span class="tag">Full Stack</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Version Control with Git and GitHub</h3>
+        <p>freeCodeCamp</p>
+        <span class="tag">Git</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>Firebase for Android Development</h3>
+        <p>YouTube & Firebase Docs</p>
+        <span class="tag">Firebase</span>
+      </a>
+      <a href="https://www.linkedin.com/in/nidurangani-herath-6a9394323" target="_blank" class="cert-card">
+        <h3>DevOps and CI/CD with GitHub Actions</h3>
+        <p>Udemy</p>
+        <span class="tag">DevOps</span>
+      </a>
+    </div>
+  </section>
+
+
+
+  <section id="timeline">
+    <h2>Education Timeline</h2>
+    <ul class="timeline">
+      <li><b>2022 - Present:</b> B.Sc in IT, Horizon Campus</li>
+      <li><b>2017 - 2019:</b> A/L, Royal College Polonnaruwa</li>
+    </ul>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-post">🚀 Deploying with GitHub Actions</div>
+    <div class="blog-post">🔐 Intro to Machine Learning with Kaggle</div>
+  </section>
+
+  <section id="awards">
+     <div class="awards-box">
+    <h2>🏆 Awards & Certifications</h2>
+
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="https://i.postimg.cc/dQ8Cs7wv/samuduru-award-jpg.jpg" alt="Samuduru Sewana Award" style="width:300px; border-radius: 10px;" />
+  <div>
+    <h2>Samuduru Sewana Award</h2>
+    <p><strong>2nd Runner-Up – Best Project for Peace (2024)</strong></p>
+    <p><strong>Project:</strong> <em>Samuduru Sewana</em></p>
+    <p>Recognized for promoting peace, religious understanding, and cultural unity at the <strong>20th Annual Year-End Conference</strong> by <strong>Leo Club of Horizon Campus</strong>.</p>
+  </div>
+</div>
+
+
+
+   <div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="https://i.postimg.cc/NG4FMSCC/cisco.png" alt="Samuduru Sewana Award" style="width:300px; border-radius: 10px;" />
+      <div class="award-content">
+        <div class="award-title"><b>Cisco Networking Essentials</b></div>
+        <div class="award-desc">Acquired foundational skills in IP, routing, and troubleshooting – Cisco Academy.</div>
+      </div>
+    </div>
+
+<divv style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="https://i.postimg.cc/nLS50v2t/oracle.png" alt="Samuduru Sewana Award" style="width:300px; border-radius: 10px;" />
+      <div class="award-content">
+        <div class="award-title"><b>Oracle HCM Cloud Foundations</div></b>
+        <div class="award-desc">Demonstrated enterprise-level HR system knowledge – Oracle.</div>
+      </div>
+    </div>
+
+   <div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="https://i.postimg.cc/0QxCxhrd/machine.png" alt="Samuduru Sewana Award" style="width:300px; border-radius: 10px;" />
+        <div class="award-title"><b>Intro to Machine Learning – Kaggle</b></div>
+        <div class="award-desc">Hands-on data preprocessing, model training, and evaluation.</div>
+      </div>
+    </div>
+
+   <div class="award-item">
+      <div class="award-icon"><img src="https://img.icons8.com/color/48/source-code.png" alt="Code Icon"></div>
+      <div class="award-content">
+        <div class="award-title"><b>Full-Stack Web Development – Horizon Campus</b></div>
+        <div class="award-desc">Worked with React & Laravel stack, real-world projects.</div>
+      </div>
+    </div>
+
+   <div class="award-item">
+      <div class="award-icon"><img src="https://img.icons8.com/color/48/git.png" alt="Git Icon"></div>
+      
+      <div class="award-content">
+        <div class="award-title"><b>Version Control with Git & GitHub – freeCodeCamp</b></div>
+      </div>
+    </div>
+
+   <div class="award-item">
+      <div class="award-icon"><img src="https://img.icons8.com/color/48/firebase.png" alt="Firebase Icon"></div>
+      <div class="award-content">
+        <div class="award-title"><b>Firebase for Android Development</b></div>
+        <div class="award-desc">Self-learned via YouTube & Firebase Docs.</div>
+      </div>
+    </div>
+
+        <div class="award-item">
+      <div class="award-icon"><img src="https://img.icons8.com/color/48/github.png" alt="GitHub Icon"></div>
+      <div class="award-content">
+        <div class="award-title"><b>DevOps & CI/CD with GitHub Actions – Udemy</b></div>
+        <div class="award-desc">Automated pipelines and deployments using GitHub Actions.</div>
+      </div>
+    </div>
+
+  </div>
+
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>"Kavindaya is a dedicated and talented developer who delivers clean, efficient code!"</blockquote>
+  </section>
+
+ <center>
+  <div class="contact-box">
+    <h2>📫 Contact</h2>
+    <h3>0722561576</h3>
+
+    <p><span class="icon">📧</span><strong>Email:</strong><br/>
+      <a href="mailto:niduranganikavindaya@gmail.com">niduranganikavindaya@gmail.com</a>
+    </p>
+
+    <p><span class="icon">🔗</span><strong>LinkedIn:</strong><br/>
+      <a href="https://www.linkedin.com/in/nidurangani-herath" target="_blank">nidurangani-herath</a>
+    </p>
+
+    <p><span class="icon">🐱</span><strong>GitHub:</strong><br/>
+      <a href="https://github.com/NIDURANGANI" target="_blank">github.com/NIDURANGANI</a>
+    </p>
+  </div></center>
+</section>
+
+
+    <div class="contact-right">
+      <h3>Send a Message</h3>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">📨 Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => {
+        section.style.display = 'none';
+      });
+
+      const activeSection = document.getElementById(sectionId);
+      if (activeSection) {
+        activeSection.style.display = 'block';
+      } else {
+        console.warn(`Section with ID '${sectionId}' not found.`);
+      }
+    }
+
+    window.onload = function () {
+      showSection('about'); // Set default section
+    };
+  </script>
+</body>
+</html>
